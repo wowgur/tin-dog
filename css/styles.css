@@ -153,3 +153,15 @@ font-weight: 800;
     font-weight: bold;
     margin-top: 20px;
 }
+.contact:hover{
+    animation: underline 0.1s ease-in-out 0s 1 forwards;
+}
+
+@keyframes underline{
+    0%{
+        text-decoration: none;
+    }
+    100%{
+        text-decoration: underline;
+    }
+}
